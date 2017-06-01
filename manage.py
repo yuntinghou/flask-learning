@@ -8,7 +8,7 @@ manager.add_command("runserver",
 
 @manager.command
 def save_todo():
-    todo = Todo(content="my first todo")
+    todo = Todo(content="my third todo", status=1)
     todo.save()
 
 if __name__ == '__main__':
